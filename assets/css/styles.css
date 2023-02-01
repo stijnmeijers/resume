@@ -274,6 +274,12 @@ img{
     z-index: var(--z-fixed);
     transition: .3s;
   }
+  .home__quote{
+    background-color: var(--text-color);
+    padding: 0.75rem;
+    border-radius: 10px;
+    font-size: smaller;
+  }
 }
 
 .nav__logo, .nav__toggle{
@@ -346,13 +352,11 @@ img{
   border-radius: 50%;
   justify-self: center;
   margin: var(--mb-1);
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
 }
 
 .home__img:hover{
     filter: none;
-    -webkit-filter: grayscale(0);
+    -webkit-filter: grayscale(100%);
 }
 
 .home__tilte{
@@ -426,6 +430,16 @@ img{
   border-radius: 10px;
   font-size: smaller;
 }
+
+@media screen and (max-width: 968px){
+  .home__quote{
+    background-color: var(--container-color-alt);
+    padding: 0.75rem;
+    border-radius: 10px;
+    font-size: smaller;
+  }
+}
+
 .home-profile{
   font-style: italic;
   
@@ -574,6 +588,7 @@ img{
     grid-template-columns: repeat(2,1fr);
     gap: 1rem .5rem;
   }
+
 }
 
 /* For small devices, menu two columns */ 
