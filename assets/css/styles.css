@@ -504,7 +504,6 @@ img{
 
 .skills__content{
   gap:0;
-  
 }
 
 .skills__name, .languages__name{
@@ -521,7 +520,14 @@ img{
   border-radius: 50%;
   margin-right: .75rem;
 }
-
+.cum_laude{
+  float: right;
+  width: fit-content;
+  background-color: var(--container-color-alt);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: smaller;
+}
 
 
 /*========== CERTIFICATES ==========*/
