@@ -156,6 +156,5 @@ resumeButton.addEventListener('click', () =>{
 
 profilePicture.addEventListener('click', () =>{
     // document.getElementsByClassName('python').classList.add('wpython')
-    swapId('python', 'wpython')
-    document.getElementById('python').style.removeProperty('animation')
+    // document.body.classList.add('scale-cv')
 })
