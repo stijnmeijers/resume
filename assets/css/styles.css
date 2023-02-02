@@ -121,6 +121,7 @@ body.scale-cv{
 
 .scale-cv .home__container{
   gap: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .scale-cv .home_data{
@@ -141,7 +142,7 @@ body.scale-cv{
 
 .scale-cv .education__container, 
 .scale-cv .experience__container{
-  gap: 1rem;
+  gap: .9rem;
 }
 
 .scale-cv .education__time, 
