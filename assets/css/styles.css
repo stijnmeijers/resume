@@ -520,8 +520,14 @@ img{
   border-radius: 50%;
   margin-right: .75rem;
 }
+
+.education__title{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 .cum_laude{
-  float: right;
   width: fit-content;
   background-color: var(--container-color-alt);
   padding: 5px;
@@ -543,7 +549,7 @@ img{
 
 }
 
-.interests{
+.bottom-section{
   padding-bottom:4rem;
 }
 
@@ -585,7 +591,7 @@ img{
 
 .show-scroll{
   visibility: visible;
-  bottom: 5rem;
+  bottom: 7rem;
 }
 
 /*========== MEDIA QUERIES ==========*/
@@ -696,7 +702,7 @@ img{
 
     border-radius: 6px;
     margin-top: 6px;
-    margin-right: 10px;
+    margin-right: 1.5rem;
     background: rgba(1, 6, 4, 0.1);
 }
 .skill-bar .skill-per{
