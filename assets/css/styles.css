@@ -720,19 +720,72 @@ img{
     opacity: 0;
 }
 
-.skill-per#wpython{
-  width: var(--wpython);
+.skill-per#productmanagement{
+  width: var(--wproductmanagement);
+  animation-delay: 0.3s;
+}
+
+.skill-per#wproductmanagement{
+width: var(--wproductmanagement);
+animation: progress 0s ease-in-out forwards;
+}
+
+.skill-per#analytics{
+  width: var(--wanalytics);
+  animation-delay: 0.4s;
+  }
+
+.skill-per#wanalytics{
+  width: var(--wanalytics);
+  animation: progress 0s ease-in-out forwards;
+  }
+
+.skill-per#presenting{
+width: var(--wpresentation);
+animation-delay: 0.5s;
+}
+
+.skill-per#wpresenting{
+width: var(--wpresentation);
+animation: progress 0s ease-in-out forwards;
+}
+
+.skill-per#humor{
+width: var(--whumor);
+animation-delay: 0.6s;
+}
+
+.skill-per#whumor{
+width: var(--whumor);
+animation: progress 0s ease-in-out forwards;
+}
+
+
+
+
+.skill-per#bidevelopment{
+  width: var(--wbidevelopment);
+  animation-delay: 0.7s;
+}
+
+.skill-per#wbidevelopment{
+  width: var(--wbidevelopment);
   animation: progress 0s ease-in-out forwards;
 }
 
 .skill-per#python{
   width: var(--wpython);
-  animation-delay: 0.3s;
+  animation-delay: 0.8s;
+}
+
+.skill-per#wpython{
+  width: var(--wpython);
+  animation: progress 0s ease-in-out forwards;
 }
 
 .skill-per#scala{
   width:var(--wscala);
-  animation-delay: 0.4s;
+  animation-delay: 0.9s;
 }
 .skill-per#wscala{
   width:var(--wscala);
@@ -741,7 +794,7 @@ img{
 
 .skill-per#excel{
   width:var(--wexcel);
-  animation-delay: 0.5s;
+  animation-delay: 1s;
 }
 
 .skill-per#wexcel{
@@ -749,55 +802,8 @@ img{
   animation: progress 0s ease-in-out forwards;
 }
 
-.skill-per#bidevelopment{
-  width: var(--wbidevelopment);
-  animation-delay: 0.6s;
-}
 
-.skill-per#wbidevelopment{
-  width: var(--wbidevelopment);
-  animation: progress 0s ease-in-out forwards;
-}
 
-.skill-per#productmanagement{
-    width: var(--wproductmanagement);
-    animation-delay: 0.7s;
-}
-
-.skill-per#wproductmanagement{
-  width: var(--wproductmanagement);
-  animation: progress 0s ease-in-out forwards;
-}
-
-.skill-per#presenting{
-  width: var(--wpresentation);
-  animation-delay: 0.8s;
-}
-
-.skill-per#wpresenting{
-  width: var(--wpresentation);
-  animation: progress 0s ease-in-out forwards;
-}
-
-.skill-per#humor{
-  width: var(--whumor);
-  animation-delay: 0.9s;
-}
-
-.skill-per#whumor{
-  width: var(--whumor);
-  animation: progress 0s ease-in-out forwards;
-}
-
-.skill-per#analytics{
-  width: var(--wanalytics);
-  animation-delay: 1s;
-}
-
-.skill-per#wanalytics{
-  width: var(--wanalytics);
-  animation: progress 0s ease-in-out forwards;
-}
 
 
 @keyframes progress {
